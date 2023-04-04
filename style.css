@@ -37,8 +37,8 @@ ul {
   background: #fff;
   color: blue;
 }
-.py-b{
-    padding-bottom: 1rem;
+.py-b {
+  padding-bottom: 1rem;
 }
 
 a {
@@ -70,18 +70,18 @@ a {
   position: relative;
 }
 
-#navbar .logo li::after{
-    content: '';
-    position: absolute;
-    height: 1px;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    background: #000;
+#navbar .logo li::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  background: #000;
 }
 
-#navbar .logo li:hover::after{
-    width: 100%;
+#navbar .logo li:hover::after {
+  width: 100%;
 }
 
 #navbar .navigation .nav-icon a {
@@ -89,22 +89,20 @@ a {
   margin-left: 0.5rem;
   margin-top: 0.7rem;
   position: relative;
-  
 }
 
-#navbar .navigation .nav-icon a i::after{
-    content: '';
-    position: absolute;
-    height: 1px;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    background: #000;
+#navbar .navigation .nav-icon a i::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  background: #000;
 }
-#navbar .navigation .nav-icon a i:hover::after{
-    width: 100%;
+#navbar .navigation .nav-icon a i:hover::after {
+  width: 100%;
 }
-
 
 /* showcase */
 #showcase {
@@ -222,20 +220,18 @@ a {
   opacity: 0.9;
 }
 
-
-#carbon .carbon-content{
-    height: 300px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+#carbon .carbon-content {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 
-#carbon .carbon-info{
-    z-index: 1;
+#carbon .carbon-info {
+  z-index: 1;
 }
-
 
 #carbon .carbon-info h1 {
   padding-bottom: 0.5rem;
@@ -256,100 +252,100 @@ a {
   opacity: 0.7;
 }
 
-.social{
-    padding: 1rem 0;
-    display: flex;
-    gap: 1rem;
+.social {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
 }
-.social p{
-    margin-top: 5px;
-}
-
-.social > div img{
-    padding: 0 2px;
-    transition: transform 0.4s ease-in;
-    cursor: pointer;
+.social p {
+  margin-top: 5px;
 }
 
-.social > div img.first:hover{
-    transform: translateY(-10px);
-}
-.social > div img.second:hover{
-    transform: translateY(-10px);
-}
-.social > div img.third:hover{
-    transform: translateY(-10px);
+.social > div img {
+  padding: 0 2px;
+  transition: transform 0.4s ease-in;
+  cursor: pointer;
 }
 
+.social > div img.first:hover {
+  transform: translateY(-10px);
+}
+.social > div img.second:hover {
+  transform: translateY(-10px);
+}
+.social > div img.third:hover {
+  transform: translateY(-10px);
+}
 
 /* Footer */
 
-#main-footer{
-    background: #f2f2f2;
+#main-footer {
+  background: #f2f2f2;
 }
 /* #main-footer .container{
     max-width: 1100px;
 } */
 
-#main-footer .footer-content{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    padding: 2rem;
+#main-footer .footer-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 2rem;
 }
 
-#main-footer a{
-    color:#262626;
-    font-size: 12px;
+#main-footer a {
+  color: #262626;
+  font-size: 12px;
 }
-#main-footer h3{
-    font-size: 13px;
-    color: #616161;
-    font-weight: 700;
-}
-
-.trademark{
-    padding: 2rem 0;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-}
-.trademark .info-links{
-    display: flex;
-    gap: 10px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    /* grid-template-columns: repeat(7,1fr); */
+#main-footer h3 {
+  font-size: 13px;
+  color: #616161;
+  font-weight: 700;
 }
 
-@media(max-width:768px){
-    #game .game-info h1{
-        padding-bottom: 2.5rem;
-    }
-
-    #game .game-info p{
-        display: none;
-    }
-    #carbon .carbon-content{
-        grid-template-columns: 1fr;
-        padding: 0 1rem;
-    }
-
+.trademark {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.trademark .info-links {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(7,1fr); */
 }
 
-@media(max-width:420px){
-    .cards{
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2,1fr);
+  }
 
-    #main-footer .footer-content{
-        grid-template-columns: 1fr;
-    }
+  #main-footer .footer-content {
+    grid-template-columns: repeat(2,1fr);
+  }
+  #game .game-info h1 {
+    padding-bottom: 2.5rem;
+  }
 
-    #carbon .carbon-content{
-        grid-template-columns: 1fr;
-    }
+  #game .game-info p {
+    display: none;
+  }
+  #carbon .carbon-content {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+}
 
+@media (max-width: 420px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 
+  #main-footer .footer-content {
+    grid-template-columns: 1fr;
+  }
 
-
-
+  #carbon .carbon-content {
+    grid-template-columns: 1fr;
+  }
 }

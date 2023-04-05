@@ -15,6 +15,11 @@
     <title>microsoft clone</title>
   </head>
   <body>
+
+<div class="menu-btn">
+  <div class="fas fa-bars fa-2x"></div>
+</div>
+
     <nav id="navbar">
       <div class="container">
         <div class="navigation">
@@ -322,5 +327,13 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.querySelector('.menu-btn').addEventListener(
+        'click', () => document.querySelector('.nav-list')
+        .classList.toggle('show'))
+    </script>
+
+
   </body>
 </html>

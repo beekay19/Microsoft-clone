@@ -370,9 +370,6 @@ a {
   .menu-btn {
     display: block;
   }
-  #navbar .logo li {
-  }
-
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
